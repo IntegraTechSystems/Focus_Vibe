@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: atma-400;
-    src: url('/Focus_Vibe/assets/fonts/Atma-Regular.ttf');
+    src: url("/Focus_Vibe/assets/fonts/Atma-Regular.ttf");
 }
 @font-face {
     font-family: montserrat;
-    src: url('/Focus_Vibe/assets/MontserratAlternates-Light.ttf');
+    src: url("/Focus_Vibe/assets/fonts/MontserratAlternates-Light.ttf");
 }
 /* colores #a775cc #7dd3d2 black white*/
 html{
