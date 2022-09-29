@@ -51,7 +51,6 @@ html{
 .initial-paragraph{
     margin-left: 8vw;
     margin-right: 8vw;
-    font-size: 1.5vw;
 }
 /*** ESTILOS BOTÓN SLIDE TOP ***/
 .btn-slide {
@@ -262,6 +261,7 @@ button{
     border-radius: 30px;
     height: 250px;
     box-shadow: 4px 4px 15px 4px #333 inset;
+    overflow: scroll;
 }
 .row{
     margin-left: 0;
