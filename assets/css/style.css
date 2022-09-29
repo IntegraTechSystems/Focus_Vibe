@@ -1,0 +1,314 @@
+@font-face{
+    font-family: lemon-tea;
+    src: url(/assets/fonts/Lemon_Tea.ttf);
+}
+@font-face {
+    font-family: atma-400;
+    src: url(/assets/fonts/Atma-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/MontserratAlternates-Light.ttf);
+}
+/* colores #a775cc #7dd3d2 black white*/
+html{
+   scroll-behavior: smooth; 
+
+}
+.text-center{
+    text-align: center;
+}
+.width-full{
+    width: 100%;
+}
+.padding-five{
+    padding: 5vw;
+}
+.margin-two{
+    margin: 2vw;
+}
+.margin-five{
+    margin: 5vw;
+}
+.logo{
+    width: 65px;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/friendship-2366955_960_720.webp);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #a675cc;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.initial-paragraph{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-size: 1.5vw;
+}
+/*** ESTILOS BOTÓN SLIDE TOP ***/
+.btn-slide {
+    background: transparent; /* color de fondo */
+    color: #7dd3d2; /* color de fuente */
+    border: 2px solid #7dd3d2; /* tamaño y color de borde */
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 10px; /* redondear bordes */
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none !important;
+    font-size: 1.5vw;
+    font-family: atma-400;
+    font-weight: bold;
+  }
+  .btn-slide:hover {
+    color: black; /* color de fuente hover */
+  }
+  .btn-slide::after {
+    content: "";
+    background: #7dd3d2; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .btn-slide:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+.div-card-mental{
+    max-width: 60vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 6vw;
+    align-items: center;
+}
+.div-image img{
+    width:100%;
+    box-shadow: 0px 0px 5px 1px black;
+    transition: filter 1s;
+}
+.div-image img:hover{
+    filter: grayscale(80%);
+}
+.div-consejos{
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5vw;
+    padding-bottom: 3rem;
+}
+.div-consejos ul li{
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: justify;
+}
+.div-banner{
+    padding: 70px;
+}
+.div-social{
+    background: rgb(125,211,210);
+    background: linear-gradient(160deg, rgba(125,211,210,1) 30%, rgba(3,1,40,1) 100%); 
+}
+.div-cultural{
+    background-image: url(/assets/img/background-1523115_960_720.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div-mental{
+    background-color:#7dd3d14f;
+}
+
+/*class animation*/
+.div-content-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0vh;
+    height: 20vh !important;
+    overflow: hidden !important;
+}
+.div-title-banner{
+    color: aliceblue;
+    font-size: 6vw;
+    font-family: atma-400;
+    margin-top: 17vh;
+    transition: margin-top 1s;
+}
+.div_title{
+    font-family: atma-400;
+    padding: 70px 10px;
+    margin-top: 19vh;
+    font-weight: bold;
+    font-size: 2.8vw;
+    transition: margin-top 1s;
+}
+.div-title-revers{
+    margin-top: 0px;
+}
+/*end*/
+h3{
+    font-family: lemon-tea;
+}
+p{
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: justify;
+}
+span{
+    font-size: 2vw;
+    color: aliceblue;
+    font-family: montserrat;
+    font-weight: bold;
+}
+ul{
+    margin-bottom: 0px !important;
+}
+.img-cultural{
+    width: 25vw;
+    border-radius: 50%;
+    border: 4px solid black;
+    transition: filter 1s;
+}
+.img-cultural:hover{
+    filter: blur(5px);
+}
+hr{
+    max-width: 60vw;
+    border-block-color: #00000054;
+}
+button{
+    outline: 0;
+    border: 0;
+    background-color:transparent;
+    color: #7dd3d2;
+    font-size: 1.6vw;
+    cursor: pointer;
+    border: 1px solid #7dd3d2;
+    width: 10vw;
+    border-radius: 5px;
+}
+
+/*bootstrap*/
+
+.nav-link{
+    color:rgb(0, 0, 0);
+    font-family: lemon-tea;
+    font-size: 1.3vw;
+}
+.nav-link:hover{
+    color:aliceblue !important;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index:999;
+    transition: 0.7s;
+    padding: 0;
+}
+.navbar-brand{
+    padding: 0;
+}
+.abajo{
+    background-color:currentColor;
+}
+.abajo a{
+    color: aliceblue !important;
+}
+.abajo a:hover{
+    color: #a775cc !important;
+}
+.card{
+    width: 40vw;
+    height: 30vw;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(20, 14, 14, 0.336);
+    background-blend-mode: multiply;
+    margin-top: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    box-shadow: 0px 10px 10px -6px black;
+    overflow:hidden !important;
+    transition: background-size 1s;
+}
+.card:hover{
+    background-size: 115% 115%;
+}
+.div-text{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 30px;
+    height: 250px;
+    box-shadow: 4px 4px 15px 4px #333 inset;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btn-secondary{
+    outline: 0;
+    border: 0;
+    background-color:transparent;
+    color: #7dd3d2;
+    font-size: 1.3vw;
+    cursor: pointer;
+    border: 1px solid #7dd3d2;
+    width: 10vw;
+    border-radius: 5px;
+    font-family: atma-400;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #7dd3d2;
+    color: currentColor;
+    border:1px solid #7dd3d2;
+}
+.modal-header{
+    background-color: currentColor !important;
+}
+.modal-header h5{
+    color: #7dd3d2;
+    font-family: atma-400;
+    font-weight: bold;
+}
+.modal-body{
+    padding: 2rem !important;
+    font-size: 1.3vw;
+    font-family: montserrat;
+    text-align: justify;
+}
+.modal-footer{
+    background-color: currentColor !important;
+}
+
+.move{
+    margin-left: 0px;
+    width: 100%;
+    transition: margin-left 1s;
+}
+.move:hover{
+    margin-left: 3vw;
+}
