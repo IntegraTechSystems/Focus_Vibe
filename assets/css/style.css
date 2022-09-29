@@ -129,7 +129,7 @@ html{
     background: linear-gradient(160deg, rgba(125,211,210,1) 30%, rgba(3,1,40,1) 100%); 
 }
 .div-cultural{
-    background-image: url(assets/img/background-1523115_960_720.jpg);
+    background-image: url(/assets/img/background-1523115_960_720.jpg);
     background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
