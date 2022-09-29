@@ -1,14 +1,14 @@
 @font-face{
     font-family: lemon-tea;
-    src: url(assets/fonts/Lemon_Tea.ttf);
+    src: url(/assets/fonts/Lemon_Tea.ttf);
 }
 @font-face {
     font-family: atma-400;
-    src: url(assets/fonts/Atma-Regular.ttf);
+    src: url(/assets/fonts/Atma-Regular.ttf);
 }
 @font-face {
     font-family: montserrat;
-    src: url(assets/fonts/MontserratAlternates-Light.ttf);
+    src: url(/assets/fonts/MontserratAlternates-Light.ttf);
 }
 /* colores #a775cc #7dd3d2 black white*/
 html{
