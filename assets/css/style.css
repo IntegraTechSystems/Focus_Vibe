@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: atma-400;
-    src: url('/assets/fonts/Atma-Regular.ttf');
+    src: url('/Focus_Vibe/assets/fonts/Atma-Regular.ttf');
 }
 @font-face {
     font-family: montserrat;
-    src: url('assets/fonts/MontserratAlternates-Light.ttf');
+    src: url('/Focus_Vibe/assets/MontserratAlternates-Light.ttf');
 }
 /* colores #a775cc #7dd3d2 black white*/
 html{
@@ -38,7 +38,7 @@ html{
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: url('assets/img/friendship-2366955_960_720.webp');
+    background-image: url('/Focus_Vibe/assets/img/friendship-2366955_960_720.webp');
     background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@ html{
     background: linear-gradient(160deg, rgba(125,211,210,1) 30%, rgba(3,1,40,1) 100%); 
 }
 .div-cultural{
-    background-image: url('/assets/img/background-1523115_960_720.jpg');
+    background-image: url('/Focus_Vibe/assets/img/background-1523115_960_720.jpg');
     background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
