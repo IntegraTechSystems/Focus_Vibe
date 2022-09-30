@@ -396,6 +396,6 @@ button{
         background-color: currentColor;
       }
       .navbar-toggler-icon{
-        background-image: url("/assets/img/lista.png") !important;
+        background-image: url("/Focus_Vibe/assets/img/lista.png") !important;
       }
 }
