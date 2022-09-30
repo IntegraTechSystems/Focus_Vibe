@@ -4,15 +4,15 @@
 }
 @font-face {
     font-family: atma-400;
-    src: url("/Focus_Vibe/assets/fonts/Atma-Regular.ttf");
+    src: url("/Focus_Vibe//assets/fonts/Atma-Regular.ttf");
 }
 @font-face {
     font-family: montserrat;
-    src: url("/Focus_Vibe/assets/fonts/MontserratAlternates-Light.ttf");
+    src: url("/Focus_Vibe//assets/fonts/MontserratAlternates-Light.ttf");
 }
 /* colores #a775cc #7dd3d2 black white*/
 html{
-   scroll-behavior: smooth; 
+   scroll-behavior: smooth;
 
 }
 .text-center{
@@ -112,7 +112,6 @@ html{
     max-width: 70vw;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.5vw;
     padding-bottom: 3rem;
 }
 .div-consejos ul li{
@@ -122,10 +121,11 @@ html{
 }
 .div-banner{
     padding: 70px;
+    width: 80%;
 }
 .div-social{
     background: rgb(125,211,210);
-    background: linear-gradient(160deg, rgba(125,211,210,1) 30%, rgba(3,1,40,1) 100%); 
+    background: linear-gradient(160deg, rgba(125,211,210,1) 30%, rgba(3,1,40,1) 100%);
 }
 .div-cultural{
     background-image: url('/Focus_Vibe/assets/img/background-1523115_960_720.jpg');
@@ -144,6 +144,7 @@ html{
     margin-bottom: 0vh;
     height: 20vh !important;
     overflow: hidden !important;
+    margin-top: -54px;
 }
 .div-title-banner{
     color: aliceblue;
@@ -173,7 +174,6 @@ p{
     text-align: justify;
 }
 span{
-    font-size: 2vw;
     color: aliceblue;
     font-family: montserrat;
     font-weight: bold;
@@ -311,4 +311,63 @@ button{
 }
 .move:hover{
     margin-left: 3vw;
+}
+
+/**/
+
+@media (min-width: 767px ) {
+    span{
+        font-size: 1.5vw;
+    }
+    .initial-paragraph {
+        font-size: 1.5vw;
+      }
+}
+@media (max-width: 767px) {
+    .div-banner {
+        padding: 30px;
+        width: 100%;
+        text-align: justify !important;
+      }
+      .div-title-banner {
+        font-size: 15vw;
+      }
+      .div_title {
+        font-size: 6vw;
+      }
+      .div-content-title {
+        margin-top: -70px;
+      }
+      .card{
+        width: 75vw;
+        height: 60vw;
+        margin-top: 10vw;
+      }
+      h3 {
+        font-size: 1.2rem;
+        margin-top: 30px;
+      }
+      .btn-slide {
+        padding: 5px 10px;
+        font-size: 5.5vw;
+        width: 30vw;
+      }
+      .img-cultural {
+        width: 60vw;
+      }
+      .modal-content {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        top: 25vw;
+      }
+      .modal-body {
+        padding: 1rem !important;
+        font-size: 4vw;
+        text-align: justify !important;
+      }
+      .btn-secondary {
+        font-size: 4vw;
+        width: 15vw;
+      }
 }
