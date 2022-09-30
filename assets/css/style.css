@@ -144,7 +144,10 @@ html{
     margin-bottom: 0vh;
     height: 20vh !important;
     overflow: hidden !important;
-    margin-top: -54px;
+    margin-top: -25px;
+}
+.margin-title{
+    margin-top: -65px;
 }
 .div-title-banner{
     color: aliceblue;
@@ -375,5 +378,8 @@ button{
       }
       .move:hover{
         margin-left: 0vw;
+    }
+    .margin-title{
+        margin-top: -127px;
     }
 }
