@@ -383,4 +383,19 @@ button{
     .margin-title{
         margin-top: -80px;
     }
+    .nav-link {
+        font-family: lemon-tea;
+        font-size: 4vw;
+        padding-left: 20px !important;
+        color: aliceblue !important;
+      }
+      .navbar-toggler {
+        padding: .25rem 2.75rem;
+      }
+      .navbar {
+        background-color: currentColor;
+      }
+      .navbar-toggler-icon{
+        background-image: url("/assets/img/lista.png") !important;
+      }
 }
