@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: atma-400;
-    src: url("/Focus_Vibe//assets/fonts/Atma-Regular.ttf");
+    src: url("/Focus_Vibe/assets/fonts/Atma-Regular.ttf");
 }
 @font-face {
     font-family: montserrat;
-    src: url("/Focus_Vibe//assets/fonts/MontserratAlternates-Light.ttf");
+    src: url("/Focus_Vibe/assets/fonts/MontserratAlternates-Light.ttf");
 }
 /* colores #a775cc #7dd3d2 black white*/
 html{
@@ -336,7 +336,7 @@ button{
         font-size: 6vw;
       }
       .div-content-title {
-        margin-top: -70px;
+        margin-top: -80px;
       }
       .card{
         width: 75vw;
@@ -370,4 +370,10 @@ button{
         font-size: 4vw;
         width: 15vw;
       }
+      .div-consejos {
+        max-width: 85vw;
+      }
+      .move:hover{
+        margin-left: 0vw;
+    }
 }
