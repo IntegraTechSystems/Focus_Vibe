@@ -340,6 +340,7 @@ button{
       }
       .div-content-title {
         margin-top: -80px;
+        height: 15vh !important;
       }
       .card{
         width: 75vw;
@@ -380,6 +381,6 @@ button{
         margin-left: 0vw;
     }
     .margin-title{
-        margin-top: -127px;
+        margin-top: -160px;
     }
 }
